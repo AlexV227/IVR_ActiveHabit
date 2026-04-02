@@ -3,7 +3,7 @@
 
 ### Группа: 10 - Ю - 1 
 ### Электронная почта: alexandrvodyanikov@gmail.com
-###Tg: @vdkv09
+### Tg: @vdkv09
 
 
 **[ НАЗВАНИЕ ПРОЕКТА ]**
