@@ -1,0 +1,16 @@
+const pool = require("./db");
+async function testConnection() {
+    try {
+        const result = await pool.query(
+         "SELECT current_database(), current_user"
+        );
+        console.log("Подключение успешно:");
+        console.log(result.rows[0]);
+    } catch (error) {
+        console.error("Ошибка подключения:");
+        console.error(error.message);
+    } finally {
+        await pool.end();
+    }
+}
+testConnection();
